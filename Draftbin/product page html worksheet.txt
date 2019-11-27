@@ -9,18 +9,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" <meta name="description"
     content="Educators Association">
   <meta name="author" content="AARosemond">
-
-  <title>Educators Association</title>
-  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Educators Association</title>
+  <link rel="shortcut icon" href="EAicon.png" type="image/x-icon">
        
         <!-- Bootstrap CSS Framework -->
-        <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <!-- End Bootstrap CSS Framework -->
 
@@ -29,8 +27,8 @@
 
         <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="favicon" href="favicon.ico">
+        <link rel="EAicon" href="EAicon.png">
+        <link rel="EAfavicon" href="EAfavicon.ico">
 
     </head>
     <body>
@@ -40,25 +38,172 @@
         <h1><span class="fas fa-camera-retro"></span> Hello World!</h1>
         <!-- TODO: Populate this page with all the content you deem
              necessary to create a compelling product page! -->
+<!--Navigation-->
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Educators Association</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Join EA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sos.html">Help</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--End Navigation-->
 
         <!-- TODO: Create an area to put the explainer video. -->
 <section>
         <!-- 1 -->
-    <article class="embedded-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/UKBvaOLDem0"
+    <article class="embedded-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/121Q_FO310"
         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
       </iframe>
 
     </article>
-    <link rel="icon" href="wats.png" type="image/ico">
+    <link rel="EAicon" href="EAicon.png" type="image/ico">
 
   </section>
 
         <!-- TODO: Create an area to put the long product description. -->
+  <!-- Page Content -->
+  <div class="container">
+    <h1 class="my-4">Educators Association.</h1>
 
+    <!-- Marketing Icons Section -->
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">We proudly serve educators and their families</h4>
+          <div class="card-body">
+            <p class="card-text">Educators Association membership offers exclusive benefits, products, and discounts for educators and eligible family members.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div
         <!-- TODO: Create an area to put customer testimonials. -->
+<!-- Testimonials -->
+    <h2>Testimonials</h2>
 
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top img-fluid" src="images/imageBean.png" alt="image of Barbara Bean PhD">
+          <div class="card-body">
+            <h4 class="card-title">Barbara Bean, PhD</h4>
+            <h6 class="card-subtitle mb-2 text-muted">EA Member of 23 years</h6>
+            <p class="card-text">My work has supported my family and futures of my students. EA helps me be successful.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#">Educators Empowered</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top img-fluid" src="images/imageYu.png" alt="image of Wei Han Yu PhD">
+          <div class="card-body">
+            <h4 class="card-title">Wei Han Yu, PhD</h4>
+            <h6 class="card-subtitle mb-2 text-muted">EA Member of 8 years</h6>
+            <p class="card-text">Opportunities abound for the conscientious. EA is there for me.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#">Educators Recognized</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top img-fluid" src="images/imageAlderaan.png" alt="image of Leia Alderaan PhD">
+          <div class="card-body">
+            <h4 class="card-title">Leia Alderaan, PhD</h4>
+            <h6 class="card-subtitle mb-2 text-muted">EA Member of 8 years</h6>
+            <p class="card-text">I'm so very tired. Educators, take me away!</p>
+          </div>
+          <div class="card-footer">
+            <a href="#">Educators Liberated</a>
+          </div>
+        </div>
+      </div>
         <!-- TODO: Create an area to show features. -->
+<!-- Portfolio Section -->
 
+
+    <h2>Member Services</h2>
+
+    <div class="row">
+      <div class="portfolio-item col-sm-6 col-md-4">
+        <div class="card h-100">
+          <a href="#">
+            <img class="card-img-top img-fluid" src="images/imageauto.png"
+              alt="Auto Insurance">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Auto Insurance</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum
+              quasi sapiente nesciunt?
+              Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil,
+              dolorem!</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item col-sm-6 col-md-4">
+        <div class="card h-100">
+          <a href="#">
+            <img class="card-img-top img-fluid" src="images/imageCV" alt="image of Curriculum Vitae">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Curriculum Vitae</a>
+            </h4>
+            <p class="card-text">Automatic network monitoring and updating. Have your work published and networked, seamlessly.</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item col-sm-6 col-md-4">
+        <div class="card h-100">
+          <a href="#">
+            <img class="card-img-top img-fluid" src="images/imagePreferred-cards.jpg" alt="image of credit cards">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Preferred Rewards Credit Cards</a>
+            </h4>
+            <p class="card-text">Earn cash back on your educational purchases and enjoy savings everyday for your critical work.</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item col-sm-6 col-md-4">
+        <div class="card h-100">
+          <a href="#">
+            <img class="card-img-top img-fluid" src="images/imagecareer-management.jpg" alt="Career Management">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Career Management</a>
+            </h4>
+            <p class="card-text">Let us keep you updated on teh best opportunities within your areas of interest. Tenure no longer equates to ossification.</p>
+          </div>
+        </div>
+      </div>
         <!-- TODO: Create an area to show company contact info (phone,
              location, etc.) -->
 
