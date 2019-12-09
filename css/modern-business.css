@@ -3,9 +3,7 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
-body {
-  padding-top: 56px;
-}
+
 
 .portfolio-item {
   margin-bottom: 30px;
@@ -16,4 +14,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
-
+h1 {
+  color: white;
+}
