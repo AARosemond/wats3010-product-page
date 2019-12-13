@@ -17,3 +17,7 @@
 h1 {
   color: white;
 }
+.card-header:hover {
+  color: hover;
+  background: #53ea92ab;
+}
